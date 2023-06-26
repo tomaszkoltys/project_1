@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/28410f88d0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Rent4U</title>
+</head>
+<body>
+    <header class="hidden">
+        <a href="index.html" class="logo">RENT<span>4</span>U</a>
+
+        <ul class="navmenu">
+            <li><a href="">Oferta</a></li>
+            <li><a href="">Flota</a></li>
+            <li><a href="">Galeria</a></li>
+            <li><a href="">O nas</a></li>
+            <li><a href="">Kontakt</a></li>
+            <li><a href="">Aktualności</a></li>
+        </ul>
+        <div class="hamburgermenu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <button class="navbutton">Formularz</button>
+    </header>
+  
+    <section class="main-home hidden">
+        <div class="main-text">
+            <h5>Sprawdzone auta w jednym miejscu</h5>
+            <h1>Możliwość wynajmu na godziny, dni lub tygodnie</h1>
+            <p>Spełnij swoje <span>marzenie</span> już dziś!</p>
+        </div>
+    </section>
+    <section class="about hidden">
+      <div class="shortcut">
+        <h3>Dlaczego <span>my?</span></h3>
+        <div class="content">
+          <ul>
+            <li class="hidden-content"><i class="fa-regular fa-circle-check"></i> 1.Szeroki wybór samochodów</li>
+            <li class="hidden-content"><i class="fa-regular fa-circle-check"></i> 2.Konkurencyjne ceny</li>
+            <li class="hidden-content"><i class="fa-regular fa-circle-check"></i> 3.Przejrzyste warunki wynajmu</li>
+            <li class="hidden-content"><i class="fa-regular fa-circle-check"></i> 4.Brak kaucji</li>
+            <li class="hidden-content"><i class="fa-regular fa-circle-check"></i> 5.Dostępność w wielu miastach</li>
+            <li class="hidden-content"><i class="fa-regular fa-circle-check"></i> 6.Bezpieczeństwo</li>
+            <li class="hidden-content"><i class="fa-regular fa-circle-check"></i> 7.Profesjonalna obsługa klienta</li>
+          </ul>
+          <img src="img/about.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="update-news hidden">
+      <div class="up-center-text">
+          <h2>Nowości</h2>
+      </div>
+      <div class="update-cart">
+          <div class="cart">
+              <img src="img/vehicle1.jpg" alt="">
+              <h4>Audi RS6</h4>
+              <p> RS6 jest wersją high-performance modelu Audi A6, wyposażoną w 
+                mocny silnik oraz ulepszone podwozie, hamulce i układ wydechowy. 
+                Najnowsza generacja RS6, wprowadzona w 2019 roku, jest napędzana 
+                przez potężny silnik V8 o pojemności 4.0 litra, który generuje aż 
+                600 KM mocy i 800 Nm momentu obrotowego.</p>
+              <button>Sprawdź</button>
+          </div>
+          <div class="cart">
+              <img src="img/vehicle2.jpg" alt="">
+              <h4>Mercedes-Benz AMG SLK55</h4>
+              <p> Model 2016 został wyposażony w mocny silnik benzynowy V8 o 
+                pojemności 5,5 litra, który generuje 416 KM mocy i 540 Nm momentu 
+                obrotowego. Silnik jest połączony z 7-biegową skrzynią biegów automatyczną, 
+                co pozwala na dynamiczną jazdę i osiągnięcie prędkości 0-100 km/h w 4,5 sekundy.</p>
+                <button>Sprawdź</button>
+          </div>
+          <div class="cart">
+              <img src="img/vehicle3.jpg" alt="">
+              <h4>Mercedes-AMG GT</h4>
+              <p> Mercedes-AMG GT jest napędzany przez silnik V8 o pojemności od 
+                4,0 do 6,2 litra, który generuje od 469 do 730 KM mocy. Wersje z 
+                mocniejszymi silnikami są w stanie osiągnąć prędkość 0-100 km/h w 
+                zaledwie 3,2 sekundy, co czyni AMG GT jednym z najszybszych samochodów na rynku.</p>
+                <button>Sprawdź</button>
+          </div>
+      </div>
+  </section>
+  <section class="contact-section hidden">
+    <div class="container">
+      <div class="item">
+          <div class="contact">
+              <div class="first-text">Jeżeli chcesz skorzystać z naszej oferty lub nawiązać z nami współpracę, skontaktuj się z nami!</div>
+              <img src="img/contact.png" alt="" class="image">
+              <div class="social-links">
+                  <span class="second-text">Znajdź nas:</span>
+                  <ul class="social-media">
+                      <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+                      <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
+                      <li><a href="#"><i class="bx bxl-youtube"></i></a></li>
+                      <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="submit-form">
+              <h4 class="third-text text">Twoje dane</h4>
+              <form method="post">
+                  <div class="input-box name-field">
+                      <input type="text" class="input" id="name" required>
+                      <label for="">Imię</label>
+                      <span class="error name-error">
+                        Podaj poprawne imię
+                      </span>
+                  </div>
+                  <div class="input-box email-field">
+                      <input type="email" class="input" id="email" required>
+                      <label for="">Email</label>
+                      <span class="error email-error">
+                        Podaj poprawny email
+                      </span>
+                  </div>
+                  <div class="input-box phone-field">
+                      <input type="tel" class="input" id="phone" maxlength="9" required>
+                      <label for="">Telefon</label>
+                      <span class="error phone-error">
+                        Podaj poprawny telefon
+                      </span>
+                  </div>
+                  <div class="input-box message-field">
+                      <textarea name="" class="input" required id="message" cols="30" rows="10"></textarea>
+                      <label for="">Wiadomość</label>
+                      <span class="error message-error">
+                        Wiadomość nie może być pusta
+                      </span>
+                  </div>
+                  <button id="btn">Wyślij</button>
+                  <div class="confirm"><i class="fa-regular fa-circle-check"></i></div>
+              </form>
+          </div>
+      </div>
+  </div>
+  </section>
+  <section class="footer hidden">
+    <div class="footer-info">
+        <div class="first-info">
+            <a href="index.html" class="logo">RENT<span>4</span>U</a>
+            <p>24-456 Lublin <br> Al. Jana Pawła II 33</p>
+            <p>(+48) 794 500 550</p>
+            <p>rent4u@kontakt.com</p>
+            <div class="social-icon">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-youtube"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+            </div>
+        </div>
+        <div class="info">
+            <h4>Skrót</h4>
+            <ul>
+              <li><a href="#">Rezerwacja</a></li>
+              <li><a href="#">Samochody</a></li>
+              <li><a href="#">Cennik</a></li>
+              <li><a href="#">Promocje</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="info">
+            <h4>Oferta</h4>
+            <ul>
+              <li><a href="#">Wynajem krótkoterminowy</a></li>
+              <li><a href="#">Wynajem średnioterminowy</a></li>
+              <li><a href="#">Wynajem długoterminowy</a></li>
+              <li><a href="#">Wynajem busów osobowych</a></li>
+              <li><a href="#">Wynajem busów dostawczych</a></li>
+            </ul>
+        </div>
+        <div class="info">
+            <h4>Pomoc</h4>
+            <ul>
+              <li><a href="#">Pomoc</a></li>
+              <li><a href="#">Ustawienia prywatności</a></li>
+            </ul>
+            </div>
+    </div>
+</section>
+<div class="end-text hidden">
+  <p>Copyright © rent4u.pl | All rights reserved</p>
+</div>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
